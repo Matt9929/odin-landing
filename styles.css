@@ -69,15 +69,17 @@ p{
 button {
  background-color: #3882f6;
  border-radius: 10px;
- color: #E5E7EB;
+ font-weight: bold;
+ font-size: 16px;
+ font-weight: bold;
+ color: #F9FAF8;
+ border-color: #F9FAF8;
 }
 
 .clickme {
     align-self: flex-start;
     padding: 6px 30px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #F9FAF8
+
 }
 
 .s-right {
@@ -135,4 +137,67 @@ button {
     width: 100px;
     border: 2px solid #3882f6;
     border-radius: 15px;
+}
+
+.inspiration {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.inspiration > .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.quote {
+    align-self: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.ms {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.action > .wrapper {
+    margin: 50px;
+    padding: 30px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+.signup2 {
+    padding: 6px 45px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.footer > .wrapper {
+    padding: 25px;
 }
